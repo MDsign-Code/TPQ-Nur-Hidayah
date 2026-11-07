@@ -1,0 +1,6 @@
+{
+  "name": "TPQ Nur Hidayah Depok",
+  "description": "Website resmi TPQ Nur Hidayah Kalibaru, Cilodong, Kota Depok. Pendaftaran santri baru, jadwal mengaji, galeri kegiatan, sertifikat digital, dan panel manajemen santri.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
