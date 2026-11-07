@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, Calendar, Instagram, CheckCircle2, ShieldCheck, MapPin } from 'lucide-react';
+import { heroImg } from '../data/mockData';
 
 interface HeroProps {
   onOpenPsbModal: () => void;
@@ -97,7 +98,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenPsbModal }) => {
           <div className="lg:col-span-5">
             <div className="relative rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 shadow-xl bg-slate-900 group">
               <img
-                src="/src/assets/images/hero_tpq_nur_hidayah_1794034686887.jpg"
+                src={heroImg}
                 alt="Suasana santri belajar mengaji di TPQ Nur Hidayah Kalibaru Cilodong"
                 className="w-full h-80 sm:h-96 lg:h-[420px] object-cover transition-transform duration-500 group-hover:scale-105"
                 referrerPolicy="no-referrer"

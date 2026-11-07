@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { NotifikasiItem } from '../types';
 import { Bell, X, CheckCheck, Send, ShieldAlert, Sparkles, Volume2, Info, Calendar } from 'lucide-react';
+import { heroImg } from '../data/mockData';
 
 interface NotificationCenterProps {
   isOpen: boolean;
@@ -42,7 +43,7 @@ export const NotificationCenter: React.FC<NotificationCenterProps> = ({
         if (perm === 'granted') {
           new Notification('TPQ Nur Hidayah Depok', {
             body: 'Notifikasi push berhasil diaktifkan! Anda akan menerima update pengumuman penting.',
-            icon: '/src/assets/images/hero_tpq_nur_hidayah_1794034686887.jpg'
+            icon: heroImg
           });
         }
       } catch {
@@ -62,7 +63,7 @@ export const NotificationCenter: React.FC<NotificationCenterProps> = ({
       try {
         new Notification(`[TPQ Nur Hidayah] ${simJudul}`, {
           body: simPesan,
-          icon: '/src/assets/images/hero_tpq_nur_hidayah_1794034686887.jpg'
+          icon: heroImg
         });
       } catch {
         // Safe catch

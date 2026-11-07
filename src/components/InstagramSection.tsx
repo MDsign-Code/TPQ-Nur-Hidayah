@@ -1,5 +1,6 @@
 import React from 'react';
 import { Instagram, Heart, MessageCircle, ExternalLink } from 'lucide-react';
+import { heroImg, wisudaImg, rihlahImg, ustadzahImg } from '../data/mockData';
 
 export const InstagramSection: React.FC = () => {
   const instagramUrl = 'https://www.instagram.com/tpqnurhidayah_depok/';
@@ -7,7 +8,7 @@ export const InstagramSection: React.FC = () => {
   const posts = [
     {
       id: 'ig-1',
-      imageUrl: '/src/assets/images/hero_tpq_nur_hidayah_1794034686887.jpg',
+      imageUrl: heroImg,
       caption: 'Alhamdulillah, halaqah sore hari ini berjalan lancar. Semangat ananda belajar tajwid & makharijul huruf bersama Ustadzah Siti. Barokallah fiik! ✨📖 #TPQNurHidayah #CilodongDepok #SantriHebat',
       likes: 128,
       comments: 14,
@@ -15,7 +16,7 @@ export const InstagramSection: React.FC = () => {
     },
     {
       id: 'ig-2',
-      imageUrl: '/src/assets/images/galeri_wisuda_tahfidz_1794034687625.jpg',
+      imageUrl: wisudaImg,
       caption: 'Momen penuh haru saat penyerahan mahkota & sertifikat kelulusan munaqasyah Juz 30. Selamat untuk para santri berprestasi! Semoga ilmunya berkah dunia akhirat. 🎓✨ #WisudaSantri #TahfidzDepok',
       likes: 245,
       comments: 32,
@@ -23,7 +24,7 @@ export const InstagramSection: React.FC = () => {
     },
     {
       id: 'ig-3',
-      imageUrl: '/src/assets/images/galeri_rihlah_santri_1794034688737.jpg',
+      imageUrl: rihlahImg,
       caption: 'Rihlah Tadabbur Alam Santri TPQ Nur Hidayah! Belajar adab ukhuwah, game kekompakan, dan tadabbur ayat kauniyah. Senyum santri adalah kebahagiaan kami 🌿🍃 #RihlahSantri #SantriCeria',
       likes: 189,
       comments: 21,
@@ -31,7 +32,7 @@ export const InstagramSection: React.FC = () => {
     },
     {
       id: 'ig-4',
-      imageUrl: '/src/assets/images/ustadzah_profile_1794034688370.jpg',
+      imageUrl: ustadzahImg,
       caption: 'Kutipan inspirasi pekan ini: "Sebaik-baik kalian adalah orang yang belajar Al-Quran dan mengajarkannya." - HR. Bukhari. Mari luangkan waktu mendampingi anak mengaji di rumah 🤲 #QuotesIslami',
       likes: 162,
       comments: 18,

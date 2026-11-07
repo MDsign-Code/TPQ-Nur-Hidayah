@@ -1,5 +1,15 @@
 import { Santri, JadwalPelajaran, Pengajar, GaleriItem, BeritaItem, SertifikatItem, NotifikasiItem } from '../types';
 
+import heroImg from '../assets/images/hero_tpq_nur_hidayah_1794034686887.jpg';
+import wisudaImg from '../assets/images/galeri_wisuda_tahfidz_1794034687625.jpg';
+import rihlahImg from '../assets/images/galeri_rihlah_santri_1794034688737.jpg';
+import ustadzahImg from '../assets/images/ustadzah_profile_1794034688370.jpg';
+import ustadzImg from '../assets/images/ustadz_ahmad_fauzi_1794035651141.jpg';
+import wudhuImg from '../assets/images/praktik_wudhu_shalat_1794036039453.jpg';
+import santunanImg from '../assets/images/santunan_yatim_kalibaru_1794036038338.jpg';
+
+export { heroImg, wisudaImg, rihlahImg, ustadzahImg, ustadzImg, wudhuImg, santunanImg };
+
 export const ADMIN_WHATSAPP_NUMBER = '6281398705733'; // Official TPQ Admin WhatsApp: +62 813-9870-5733
 export const TPQ_ADDRESS = 'HR9M+9C6, Kalibaru, Kec. Cilodong, Kota Depok, Jawa Barat 16414';
 export const OPERATIONAL_HOURS = 'Senin – Kamis pukul 08.00 – 18.00 WIB';
@@ -166,7 +176,7 @@ export const INITIAL_PENGAJAR: Pengajar[] = [
     keahlian: ['Pemegang Syahadah Guru Qiroati', 'Tahsin & Makhorijul Huruf', 'Psikologi Pendidikan Anak'],
     pengalaman: '11 Tahun Membina Santri Qiroati di Kalibaru Cilodong',
     pesanInspirasi: '"Metode Qiroati menuntun anak membaca Al-Qur\'an secara tartil langsung dengan cinta dan kedisiplinan."',
-    fotoUrl: '/src/assets/images/ustadzah_profile_1794034688370.jpg'
+    fotoUrl: ustadzahImg
   },
   {
     id: 'pgj-02',
@@ -177,7 +187,7 @@ export const INITIAL_PENGAJAR: Pengajar[] = [
     keahlian: ['Tahfidz 30 Juz', 'Pengajar Ghorib & Musykilat Qiroati', 'Dewan Munaqisy Kelulusan'],
     pengalaman: '8 Tahun Membimbing Santri Tahfidz Berprestasi di Depok',
     pesanInspirasi: '"Sebaik-baik kalian adalah orang yang belajar Al-Qur\'an dan mengajarkannya."',
-    fotoUrl: '/src/assets/images/ustadz_ahmad_fauzi_1794035651141.jpg'
+    fotoUrl: ustadzImg
   },
   {
     id: 'pgj-03',
@@ -188,7 +198,7 @@ export const INITIAL_PENGAJAR: Pengajar[] = [
     keahlian: ['Fiqih Shalat Praktis', 'Kisah Sirah Nabawiyah', 'Kaligrafi Islam'],
     pengalaman: '6 Tahun Aktif Dakwah Komunitas Pemuda & TPQ Kalibaru',
     pesanInspirasi: '"Bukan hanya fasih membaca kalam Ilahi, namun juga santun budi pekertinya di rumah dan masyarakat."',
-    fotoUrl: '/src/assets/images/ustadz_ahmad_fauzi_1794035651141.jpg'
+    fotoUrl: ustadzImg
   },
   {
     id: 'pgj-04',
@@ -199,7 +209,7 @@ export const INITIAL_PENGAJAR: Pengajar[] = [
     keahlian: ['Metode Fonetik Qiroati', 'Media Belajar Interaktif', 'Hafalan Juz Amma Tematik'],
     pengalaman: '5 Tahun Mengajar Anak Usia Dini & TK/SD',
     pesanInspirasi: '"Kesabaran dan kelembutan seorang guru membuka hati anak untuk mencintai firman Allah SWT sejak belia."',
-    fotoUrl: '/src/assets/images/ustadzah_profile_1794034688370.jpg'
+    fotoUrl: ustadzahImg
   }
 ];
 
@@ -210,7 +220,7 @@ export const INITIAL_GALERI: GaleriItem[] = [
     kategori: 'Belajar Mengaji',
     tanggal: '4 November 2026',
     deskripsi: 'Suasana santri tekun menyimak bimbingan ustadzah pada halaqah Qiroati di TPQ Nur Hidayah, Kalibaru, Cilodong.',
-    imageUrl: '/src/assets/images/hero_tpq_nur_hidayah_1794034686887.jpg',
+    imageUrl: heroImg,
     highlight: true
   },
   {
@@ -219,7 +229,7 @@ export const INITIAL_GALERI: GaleriItem[] = [
     kategori: 'Wisuda Tahfidz',
     tanggal: '18 Oktober 2026',
     deskripsi: 'Pemberian sertifikat digital syahadah Qiroati dan Juz 30 bagi santri yang lulus munaqasyah dengan nilai Mumtaz.',
-    imageUrl: '/src/assets/images/galeri_wisuda_tahfidz_1794034687625.jpg',
+    imageUrl: wisudaImg,
     highlight: true
   },
   {
@@ -228,7 +238,7 @@ export const INITIAL_GALERI: GaleriItem[] = [
     kategori: 'Rihlah & Outdoor',
     tanggal: '27 September 2026',
     deskripsi: 'Kegiatan edukasi outdoor, game kekompakan islami, dan tadabbur kebesaran ciptaan Allah di ruang terbuka hijau Kota Depok.',
-    imageUrl: '/src/assets/images/galeri_rihlah_santri_1794034688737.jpg',
+    imageUrl: rihlahImg,
     highlight: true
   },
   {
@@ -237,7 +247,7 @@ export const INITIAL_GALERI: GaleriItem[] = [
     kategori: 'Belajar Mengaji',
     tanggal: '12 September 2026',
     deskripsi: 'Bimbingan tatacara bersuci wudhu yang tertib dan pembiasaan shalat fardhu berjamaah di musholla TPQ Nur Hidayah.',
-    imageUrl: '/src/assets/images/praktik_wudhu_shalat_1794036039453.jpg'
+    imageUrl: wudhuImg
   },
   {
     id: 'glr-05',
@@ -245,7 +255,7 @@ export const INITIAL_GALERI: GaleriItem[] = [
     kategori: 'PHBI & Santunan',
     tanggal: '16 September 2026',
     deskripsi: 'Pemberian paket tas sekolah, perlengkapan belajar, dan santunan kasih sayang kepada anak-anak yatim binaan TPQ di Kalibaru, Cilodong.',
-    imageUrl: '/src/assets/images/santunan_yatim_kalibaru_1794036038338.jpg'
+    imageUrl: santunanImg
   },
   {
     id: 'glr-06',
@@ -272,7 +282,7 @@ export const INITIAL_BERITA: BeritaItem[] = [
       'Pendaftaran dapat dilakukan secara online melalui website ini dengan konfirmasi otomatis via WhatsApp resmi (+62 813-9870-5733).'
     ],
     bacaMenit: 3,
-    imageUrl: '/src/assets/images/hero_tpq_nur_hidayah_1794034686887.jpg'
+    imageUrl: heroImg
   },
   {
     id: 'brt-02',
@@ -287,7 +297,7 @@ export const INITIAL_BERITA: BeritaItem[] = [
       'Sertifikat kelulusan digital kini dapat dicek langsung keasliannya melalui pangkalan data website resmi TPQ Nur Hidayah.'
     ],
     bacaMenit: 4,
-    imageUrl: '/src/assets/images/galeri_wisuda_tahfidz_1794034687625.jpg'
+    imageUrl: wisudaImg
   },
   {
     id: 'brt-03',
@@ -302,7 +312,7 @@ export const INITIAL_BERITA: BeritaItem[] = [
       'Guru pengampu di TPQ Nur Hidayah telah melalui penataran dan pemegang syahadah resmi sehingga kualitas bacaan santri terjaga.'
     ],
     bacaMenit: 3,
-    imageUrl: '/src/assets/images/galeri_rihlah_santri_1794034688737.jpg'
+    imageUrl: rihlahImg
   }
 ];
 
